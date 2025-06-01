@@ -1,0 +1,24 @@
+{
+  "name": "knowledge-graph",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagnikc395/knowledge-graph.git"
+  },
+  "keywords": [],
+  "author": "Sagnik Chatterjee <sagnikchatterjee395@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sagnikc395/knowledge-graph/issues"
+  },
+  "homepage": "https://github.com/sagnikc395/knowledge-graph#readme",
+  "description": "easily build graphs over your knowledge base",
+  "dependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  }
+}
