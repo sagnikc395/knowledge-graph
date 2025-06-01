@@ -1,4 +1,4 @@
-import { GraphSpec } from "../graph/types";
+import { GraphSpec } from "../types/types";
 
 async function fetchGraphSpec(path: string): Promise<GraphSpec> {
     const response = await fetch(path);

@@ -21,13 +21,20 @@
   "homepage": "https://github.com/sagnikc395/knowledge-graph#readme",
   "description": "easily build graphs over your knowledge base",
   "dependencies": {
-    "@types/node": "^22.15.29"
+    "@types/node": "^22.15.29",
+    "fastify": "^5.3.3"
   },
   "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@typescript-eslint/eslint-plugin": "^8.33.0",
+    "@typescript-eslint/parser": "^8.33.0",
     "autoprefixer": "^10.4.21",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0",
     "postcss": "^8.5.4",
     "tailwindcss": "^4.1.8",
     "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.0",
     "vite": "^6.3.5"
   }
 }

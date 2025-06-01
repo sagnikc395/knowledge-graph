@@ -1,4 +1,4 @@
-import type { Edge, Node } from "../graph/types";
+import type { Edge, Node } from "../types/types";
 
 //draw the edges of the graph 
 
