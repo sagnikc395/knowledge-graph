@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -18,11 +21,13 @@
   "homepage": "https://github.com/sagnikc395/knowledge-graph#readme",
   "description": "easily build graphs over your knowledge base",
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.8",
-    "@tailwindcss/postcss": "^4.1.8",
-    "@types/node": "^22.15.29",
+    "@types/node": "^22.15.29"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
     "postcss": "^8.5.4",
     "tailwindcss": "^4.1.8",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
   }
 }
