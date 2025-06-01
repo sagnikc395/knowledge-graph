@@ -20,6 +20,21 @@ function drawEdges(nodes: Array<Node>, edges: Array<Edge>, ctx: CanvasRenderingC
 
 }
 
+function drawNodes(nodes: Array<Node>, ctx: CanvasRenderingContext2D) {
+    nodes.forEach(node => {
+        ctx.beginPath();
+        ctx.arc(node.x, node.y, 20, 0, Math.PI * 2);
+        ctx.fillStyle = "#2563eb"; // Tailwind's blue-600
+        ctx.fill();
+
+        ctx.fillStyle = "#fff";
+        ctx.font = "16px sans-serif";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.fillText(node.id, node.x, node.y);
+    });
+}
+
 
 
 function drawGraph(canvasId: string, nodes: Array<Node>, edges: Array<Edge>): void {
